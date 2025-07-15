@@ -1,0 +1,509 @@
+2025-07-11 23:13:27 - root - INFO - Logging system initialized successfully
+2025-07-11 23:13:27 - root - INFO - Log level: INFO
+2025-07-11 23:13:27 - root - INFO - Log file: logs/scraper.log
+2025-07-11 23:13:27 - root - INFO - Max file size: 10 MB
+2025-07-11 23:13:27 - root - INFO - Backup count: 5
+2025-07-11 23:13:27 - WebScraper.config_test - INFO - Testing logging with actual configuration
+2025-07-13 00:02:57 - root - INFO - Logging system initialized successfully
+2025-07-13 00:02:57 - root - INFO - Log level: INFO
+2025-07-13 00:02:57 - root - INFO - Log file: logs/scraper.log
+2025-07-13 00:02:57 - root - INFO - Max file size: 10 MB
+2025-07-13 00:02:57 - root - INFO - Backup count: 5
+2025-07-13 00:04:15 - root - INFO - Logging system initialized successfully
+2025-07-13 00:04:15 - root - INFO - Log level: INFO
+2025-07-13 00:04:15 - root - INFO - Log file: logs/scraper.log
+2025-07-13 00:04:15 - root - INFO - Max file size: 10 MB
+2025-07-13 00:04:15 - root - INFO - Backup count: 5
+2025-07-13 00:15:09 - root - INFO - Logging system initialized successfully
+2025-07-13 00:15:09 - root - INFO - Log level: INFO
+2025-07-13 00:15:09 - root - INFO - Log file: logs/scraper.log
+2025-07-13 00:15:09 - root - INFO - Max file size: 10 MB
+2025-07-13 00:15:09 - root - INFO - Backup count: 5
+2025-07-13 00:15:09 - WebScraper.utils - INFO - System Information:
+2025-07-13 00:15:09 - WebScraper.utils - INFO - Python version: 3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-07-13 00:15:10 - WebScraper.utils - INFO - Platform: macOS-15.5-arm64-arm-64bit-Mach-O
+2025-07-13 00:15:10 - WebScraper.utils - INFO - Architecture: 64bit
+2025-07-13 00:15:10 - WebScraper.utils - INFO - Working directory: /Users/rileymahoney/Documents/Workspace/idea-scraper
+2025-07-13 00:15:10 - WebScraper.__main__ - INFO - Web Scraper starting - Session ID: 5314fd2e
+2025-07-13 00:15:10 - database - INFO - DatabaseManager initialized for localhost:5432/web_scraper
+2025-07-13 00:15:10 - database - INFO - Creating database connection pool...
+2025-07-13 00:15:10 - database - ERROR - Database health check failed: Database operation failed: 'psycopg2.extensions.connection' object has no attribute 'ping'
+2025-07-13 00:15:10 - database - ERROR - Failed to create database connection pool: Database health check failed after connection
+2025-07-13 00:15:10 - WebScraper.__main__ - ERROR - Failed to initialize database: Database health check failed after connection
+2025-07-13 00:15:10 - WebScraper.__main__ - ERROR - Database initialization failed: Database health check failed after connection
+2025-07-13 00:15:10 - WebScraper.__main__ - INFO - Performing cleanup operations...
+2025-07-13 00:15:10 - WebScraper.__main__ - INFO - Cleanup completed for session 5314fd2e
+2025-07-13 00:20:38 - root - INFO - Logging system initialized successfully
+2025-07-13 00:20:38 - root - INFO - Log level: INFO
+2025-07-13 00:20:38 - root - INFO - Log file: logs/scraper.log
+2025-07-13 00:20:38 - root - INFO - Max file size: 10 MB
+2025-07-13 00:20:38 - root - INFO - Backup count: 5
+2025-07-13 00:20:38 - WebScraper.utils - INFO - System Information:
+2025-07-13 00:20:38 - WebScraper.utils - INFO - Python version: 3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-07-13 00:20:38 - WebScraper.utils - INFO - Platform: macOS-15.5-arm64-arm-64bit-Mach-O
+2025-07-13 00:20:38 - WebScraper.utils - INFO - Architecture: 64bit
+2025-07-13 00:20:38 - WebScraper.utils - INFO - Working directory: /Users/rileymahoney/Documents/Workspace/idea-scraper
+2025-07-13 00:20:38 - WebScraper.__main__ - INFO - Web Scraper starting - Session ID: 3098f8e6
+2025-07-13 00:20:38 - database - INFO - DatabaseManager initialized for localhost:5432/web_scraper
+2025-07-13 00:20:38 - database - INFO - Creating database connection pool...
+2025-07-13 00:20:38 - database - ERROR - Database health check failed: Database operation failed: 'psycopg2.extensions.connection' object has no attribute 'ping'
+2025-07-13 00:20:38 - database - ERROR - Failed to create database connection pool: Database health check failed after connection
+2025-07-13 00:20:38 - WebScraper.__main__ - ERROR - Failed to initialize database: Database health check failed after connection
+2025-07-13 00:20:38 - WebScraper.__main__ - ERROR - Database initialization failed: Database health check failed after connection
+2025-07-13 00:20:38 - WebScraper.__main__ - INFO - Performing cleanup operations...
+2025-07-13 00:20:38 - WebScraper.__main__ - INFO - Cleanup completed for session 3098f8e6
+2025-07-13 00:22:51 - root - INFO - Logging system initialized successfully
+2025-07-13 00:22:51 - root - INFO - Log level: INFO
+2025-07-13 00:22:51 - root - INFO - Log file: logs/scraper.log
+2025-07-13 00:22:51 - root - INFO - Max file size: 10 MB
+2025-07-13 00:22:51 - root - INFO - Backup count: 5
+2025-07-13 00:22:51 - WebScraper.utils - INFO - System Information:
+2025-07-13 00:22:51 - WebScraper.utils - INFO - Python version: 3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-07-13 00:22:51 - WebScraper.utils - INFO - Platform: macOS-15.5-arm64-arm-64bit-Mach-O
+2025-07-13 00:22:51 - WebScraper.utils - INFO - Architecture: 64bit
+2025-07-13 00:22:51 - WebScraper.utils - INFO - Working directory: /Users/rileymahoney/Documents/Workspace/idea-scraper
+2025-07-13 00:22:51 - WebScraper.__main__ - INFO - Web Scraper starting - Session ID: 2fd609f6
+2025-07-13 00:22:51 - database - INFO - DatabaseManager initialized for localhost:5432/web_scraper
+2025-07-13 00:22:51 - database - INFO - Creating database connection pool...
+2025-07-13 00:22:51 - database - INFO - Database connection pool created successfully (5-20 connections)
+2025-07-13 00:22:51 - WebScraper.__main__ - INFO - Database connection established successfully
+2025-07-13 00:22:51 - WebScraper.__main__ - INFO - Creating database tables...
+2025-07-13 00:22:51 - database - INFO - Database tables and indexes created successfully
+2025-07-13 00:22:51 - WebScraper.__main__ - INFO - Database tables created successfully
+2025-07-13 00:22:51 - WebScraper.__main__ - INFO - Database setup completed successfully
+2025-07-13 00:22:51 - WebScraper.__main__ - INFO - Performing cleanup operations...
+2025-07-13 00:22:51 - database - INFO - Closing database connection pool...
+2025-07-13 00:22:51 - database - INFO - Database connection pool closed successfully
+2025-07-13 00:22:51 - WebScraper.__main__ - INFO - Database connections closed
+2025-07-13 00:22:51 - WebScraper.__main__ - INFO - Cleanup completed for session 2fd609f6
+2025-07-13 00:23:00 - root - INFO - Logging system initialized successfully
+2025-07-13 00:23:00 - root - INFO - Log level: DEBUG
+2025-07-13 00:23:00 - root - INFO - Log file: logs/scraper.log
+2025-07-13 00:23:00 - root - INFO - Max file size: 10 MB
+2025-07-13 00:23:00 - root - INFO - Backup count: 5
+2025-07-13 00:23:00 - WebScraper.utils - INFO - System Information:
+2025-07-13 00:23:00 - WebScraper.utils - INFO - Python version: 3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-07-13 00:23:00 - WebScraper.utils - INFO - Platform: macOS-15.5-arm64-arm-64bit-Mach-O
+2025-07-13 00:23:00 - WebScraper.utils - INFO - Architecture: 64bit
+2025-07-13 00:23:00 - WebScraper.utils - INFO - Working directory: /Users/rileymahoney/Documents/Workspace/idea-scraper
+2025-07-13 00:23:00 - WebScraper.__main__ - INFO - Web Scraper starting - Session ID: 841670c0
+2025-07-13 00:23:00 - database - INFO - DatabaseManager initialized for localhost:5432/web_scraper
+2025-07-13 00:23:00 - database - INFO - Creating database connection pool...
+2025-07-13 00:23:00 - database - DEBUG - Created connection pool with 5-20 connections
+2025-07-13 00:23:00 - database - DEBUG - Database health check passed
+2025-07-13 00:23:00 - database - INFO - Database connection pool created successfully (5-20 connections)
+2025-07-13 00:23:00 - WebScraper.__main__ - INFO - Database connection established successfully
+2025-07-13 00:23:00 - WebScraper.__main__ - INFO - Starting main application logic...
+2025-07-13 00:23:00 - database - DEBUG - Database health check passed
+2025-07-13 00:23:00 - WebScraper.__main__ - INFO - Configuration Summary:
+2025-07-13 00:23:00 - WebScraper.__main__ - INFO -   Database: localhost:5432/web_scraper
+2025-07-13 00:23:00 - WebScraper.__main__ - INFO -   URLs configured: 3
+2025-07-13 00:23:00 - WebScraper.__main__ - INFO -   URLs enabled: 2
+2025-07-13 00:23:00 - WebScraper.__main__ - INFO -   Request timeout: 30s
+2025-07-13 00:23:00 - WebScraper.__main__ - INFO -   Retry attempts: 3
+2025-07-13 00:23:00 - WebScraper.__main__ - INFO - Dry-run mode enabled - no actual scraping performed
+2025-07-13 00:23:00 - WebScraper.__main__ - INFO - Application completed successfully in 0.05 seconds
+2025-07-13 00:23:00 - WebScraper.__main__ - INFO - Performing cleanup operations...
+2025-07-13 00:23:00 - database - INFO - Closing database connection pool...
+2025-07-13 00:23:00 - database - INFO - Database connection pool closed successfully
+2025-07-13 00:23:00 - WebScraper.__main__ - INFO - Database connections closed
+2025-07-13 00:23:00 - WebScraper.__main__ - INFO - Cleanup completed for session 841670c0
+2025-07-14 19:20:24 - root - INFO - Logging system initialized successfully
+2025-07-14 19:20:24 - root - INFO - Log level: INFO
+2025-07-14 19:20:24 - root - INFO - Log file: logs/scraper.log
+2025-07-14 19:20:24 - root - INFO - Max file size: 10 MB
+2025-07-14 19:20:24 - root - INFO - Backup count: 5
+2025-07-14 19:20:24 - WebScraper.utils - INFO - System Information:
+2025-07-14 19:20:24 - WebScraper.utils - INFO - Python version: 3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-07-14 19:20:24 - WebScraper.utils - INFO - Platform: macOS-15.5-arm64-arm-64bit-Mach-O
+2025-07-14 19:20:24 - WebScraper.utils - INFO - Architecture: 64bit
+2025-07-14 19:20:24 - WebScraper.utils - INFO - Working directory: /Users/rileymahoney/Documents/Workspace/idea-scraper
+2025-07-14 19:20:24 - WebScraper.__main__ - INFO - Web Scraper starting - Session ID: ec629e65
+2025-07-14 19:20:24 - database - INFO - DatabaseManager initialized for localhost:5432/web_scraper
+2025-07-14 19:20:24 - database - INFO - Creating database connection pool...
+2025-07-14 19:20:25 - database - INFO - Database connection pool created successfully (5-20 connections)
+2025-07-14 19:20:25 - WebScraper.__main__ - INFO - Database connection established successfully
+2025-07-14 19:20:25 - WebScraper.__main__ - INFO - Starting main application logic...
+2025-07-14 19:20:25 - WebScraper.__main__ - INFO - Configuration Summary:
+2025-07-14 19:20:25 - WebScraper.__main__ - INFO -   Database: localhost:5432/web_scraper
+2025-07-14 19:20:25 - WebScraper.__main__ - INFO -   URLs configured: 3
+2025-07-14 19:20:25 - WebScraper.__main__ - INFO -   URLs enabled: 2
+2025-07-14 19:20:25 - WebScraper.__main__ - INFO -   Request timeout: 30s
+2025-07-14 19:20:25 - WebScraper.__main__ - INFO -   Retry attempts: 3
+2025-07-14 19:20:25 - WebScraper.scraper - INFO - HTTPClient initialized with timeout=30s, max_retries=3, user_agent='WebScraper/1.0'
+2025-07-14 19:20:25 - WebScraper.scraper - INFO - ContentExtractor initialized with min_length=100, preserve_html=False
+2025-07-14 19:20:25 - WebScraper.scraper - INFO - WebScraper initialized with session_id=scrape_1752535225_7783, 3 URLs configured
+2025-07-14 19:20:25 - WebScraper.__main__ - INFO - Dry-run mode enabled - simulating scraping process
+2025-07-14 19:20:25 - WebScraper.scraper - INFO - Simulating scraping process (dry-run mode)
+2025-07-14 19:20:25 - WebScraper.scraper - INFO - Would scrape: Example Site (https://example.com)
+2025-07-14 19:20:25 - WebScraper.scraper - INFO - Would scrape: HTTPBin Test Page (https://httpbin.org/html)
+2025-07-14 19:20:25 - WebScraper.__main__ - INFO - Scraping session completed: 2/2 successful, 0 failed, 0 skipped
+2025-07-14 19:20:25 - WebScraper.__main__ - INFO - Application completed successfully in 0.55 seconds
+2025-07-14 19:20:25 - WebScraper.__main__ - INFO - Performing cleanup operations...
+2025-07-14 19:20:25 - database - INFO - Closing database connection pool...
+2025-07-14 19:20:25 - database - INFO - Database connection pool closed successfully
+2025-07-14 19:20:25 - WebScraper.__main__ - INFO - Database connections closed
+2025-07-14 19:20:25 - WebScraper.__main__ - INFO - Cleanup completed for session ec629e65
+2025-07-14 19:20:33 - root - INFO - Logging system initialized successfully
+2025-07-14 19:20:33 - root - INFO - Log level: INFO
+2025-07-14 19:20:33 - root - INFO - Log file: logs/scraper.log
+2025-07-14 19:20:33 - root - INFO - Max file size: 10 MB
+2025-07-14 19:20:33 - root - INFO - Backup count: 5
+2025-07-14 19:20:33 - WebScraper.utils - INFO - System Information:
+2025-07-14 19:20:33 - WebScraper.utils - INFO - Python version: 3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-07-14 19:20:33 - WebScraper.utils - INFO - Platform: macOS-15.5-arm64-arm-64bit-Mach-O
+2025-07-14 19:20:33 - WebScraper.utils - INFO - Architecture: 64bit
+2025-07-14 19:20:33 - WebScraper.utils - INFO - Working directory: /Users/rileymahoney/Documents/Workspace/idea-scraper
+2025-07-14 19:20:33 - WebScraper.__main__ - INFO - Web Scraper starting - Session ID: a1651152
+2025-07-14 19:20:33 - database - INFO - DatabaseManager initialized for localhost:5432/web_scraper
+2025-07-14 19:20:33 - database - INFO - Creating database connection pool...
+2025-07-14 19:20:33 - database - INFO - Database connection pool created successfully (5-20 connections)
+2025-07-14 19:20:33 - WebScraper.__main__ - INFO - Database connection established successfully
+2025-07-14 19:20:33 - WebScraper.__main__ - INFO - Starting main application logic...
+2025-07-14 19:20:33 - WebScraper.__main__ - INFO - Configuration Summary:
+2025-07-14 19:20:33 - WebScraper.__main__ - INFO -   Database: localhost:5432/web_scraper
+2025-07-14 19:20:33 - WebScraper.__main__ - INFO -   URLs configured: 3
+2025-07-14 19:20:33 - WebScraper.__main__ - INFO -   URLs enabled: 2
+2025-07-14 19:20:33 - WebScraper.__main__ - INFO -   Request timeout: 30s
+2025-07-14 19:20:33 - WebScraper.__main__ - INFO -   Retry attempts: 3
+2025-07-14 19:20:34 - WebScraper.scraper - INFO - HTTPClient initialized with timeout=30s, max_retries=3, user_agent='WebScraper/1.0'
+2025-07-14 19:20:34 - WebScraper.scraper - INFO - ContentExtractor initialized with min_length=100, preserve_html=False
+2025-07-14 19:20:34 - WebScraper.scraper - INFO - WebScraper initialized with session_id=scrape_1752535234_6776, 3 URLs configured
+2025-07-14 19:20:34 - WebScraper.__main__ - INFO - Starting web scraping process...
+2025-07-14 19:20:34 - WebScraper.scraper - INFO - Starting scraping session scrape_1752535234_6776
+2025-07-14 19:20:34 - WebScraper.scraper - INFO - Processing 1/2: Example Site (https://example.com)
+2025-07-14 19:20:34 - WebScraper.scraper - INFO - Request successful: https://example.com - 200 (1256 bytes, 345ms, attempt 1)
+2025-07-14 19:20:34 - WebScraper.scraper - INFO - Content extracted successfully from https://example.com: title='Example Domain...' content_length=187
+2025-07-14 19:20:34 - WebScraper.scraper - ERROR - Failed to store content for https://example.com: DatabaseManager.insert_content() got an unexpected keyword argument 'url'
+2025-07-14 19:20:34 - WebScraper.scraper - ERROR - Unexpected error for https://example.com: TypeError - DatabaseManager.insert_content() got an unexpected keyword argument 'url'
+2025-07-14 19:20:35 - WebScraper.scraper - INFO - Processing 2/2: HTTPBin Test Page (https://httpbin.org/html)
+2025-07-14 19:20:35 - WebScraper.scraper - INFO - Request successful: https://httpbin.org/html - 200 (3741 bytes, 290ms, attempt 1)
+2025-07-14 19:20:35 - WebScraper.scraper - INFO - Content extracted successfully from https://httpbin.org/html: title='Herman Melville - Moby...' content_length=3594
+2025-07-14 19:20:35 - WebScraper.scraper - ERROR - Failed to store content for https://httpbin.org/html: DatabaseManager.insert_content() got an unexpected keyword argument 'url'
+2025-07-14 19:20:35 - WebScraper.scraper - ERROR - Unexpected error for https://httpbin.org/html: TypeError - DatabaseManager.insert_content() got an unexpected keyword argument 'url'
+2025-07-14 19:20:35 - WebScraper.scraper - INFO - Scraping session completed: 0/2 successful
+2025-07-14 19:20:35 - database - INFO - Inserted scraping stats for session scrape_1752535234_6776, ID: 1
+2025-07-14 19:20:35 - WebScraper.__main__ - INFO - Scraping session completed: 0/2 successful, 2 failed, 0 skipped
+2025-07-14 19:20:35 - WebScraper.__main__ - WARNING - Encountered 2 errors during scraping
+2025-07-14 19:20:35 - WebScraper.__main__ - WARNING -   - https://example.com: TypeError - DatabaseManager.insert_content() got an unexpected keyword argument 'url'
+2025-07-14 19:20:35 - WebScraper.__main__ - WARNING -   - https://httpbin.org/html: TypeError - DatabaseManager.insert_content() got an unexpected keyword argument 'url'
+2025-07-14 19:20:35 - WebScraper.__main__ - INFO - Application completed successfully in 1.79 seconds
+2025-07-14 19:20:35 - WebScraper.__main__ - INFO - Performing cleanup operations...
+2025-07-14 19:20:35 - database - INFO - Closing database connection pool...
+2025-07-14 19:20:35 - database - INFO - Database connection pool closed successfully
+2025-07-14 19:20:35 - WebScraper.__main__ - INFO - Database connections closed
+2025-07-14 19:20:35 - WebScraper.__main__ - INFO - Cleanup completed for session a1651152
+2025-07-14 19:22:03 - root - INFO - Logging system initialized successfully
+2025-07-14 19:22:03 - root - INFO - Log level: INFO
+2025-07-14 19:22:03 - root - INFO - Log file: logs/scraper.log
+2025-07-14 19:22:03 - root - INFO - Max file size: 10 MB
+2025-07-14 19:22:03 - root - INFO - Backup count: 5
+2025-07-14 19:22:03 - WebScraper.utils - INFO - System Information:
+2025-07-14 19:22:03 - WebScraper.utils - INFO - Python version: 3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-07-14 19:22:03 - WebScraper.utils - INFO - Platform: macOS-15.5-arm64-arm-64bit-Mach-O
+2025-07-14 19:22:03 - WebScraper.utils - INFO - Architecture: 64bit
+2025-07-14 19:22:03 - WebScraper.utils - INFO - Working directory: /Users/rileymahoney/Documents/Workspace/idea-scraper
+2025-07-14 19:22:03 - WebScraper.__main__ - INFO - Web Scraper starting - Session ID: 76980f94
+2025-07-14 19:22:03 - database - INFO - DatabaseManager initialized for localhost:5432/web_scraper
+2025-07-14 19:22:03 - database - INFO - Creating database connection pool...
+2025-07-14 19:22:03 - database - INFO - Database connection pool created successfully (5-20 connections)
+2025-07-14 19:22:03 - WebScraper.__main__ - INFO - Database connection established successfully
+2025-07-14 19:22:03 - WebScraper.__main__ - INFO - Starting main application logic...
+2025-07-14 19:22:03 - WebScraper.__main__ - INFO - Configuration Summary:
+2025-07-14 19:22:03 - WebScraper.__main__ - INFO -   Database: localhost:5432/web_scraper
+2025-07-14 19:22:03 - WebScraper.__main__ - INFO -   URLs configured: 3
+2025-07-14 19:22:03 - WebScraper.__main__ - INFO -   URLs enabled: 2
+2025-07-14 19:22:03 - WebScraper.__main__ - INFO -   Request timeout: 30s
+2025-07-14 19:22:03 - WebScraper.__main__ - INFO -   Retry attempts: 3
+2025-07-14 19:22:03 - WebScraper.scraper - INFO - HTTPClient initialized with timeout=30s, max_retries=3, user_agent='WebScraper/1.0'
+2025-07-14 19:22:03 - WebScraper.scraper - INFO - ContentExtractor initialized with min_length=100, preserve_html=False
+2025-07-14 19:22:03 - WebScraper.scraper - INFO - WebScraper initialized with session_id=scrape_1752535323_5558, 3 URLs configured
+2025-07-14 19:22:03 - WebScraper.__main__ - INFO - Dry-run mode enabled - simulating scraping process
+2025-07-14 19:22:03 - WebScraper.scraper - INFO - Simulating scraping process (dry-run mode)
+2025-07-14 19:22:03 - WebScraper.scraper - INFO - Would scrape: Example Site (https://example.com)
+2025-07-14 19:22:03 - WebScraper.scraper - INFO - Would scrape: HTTPBin Test Page (https://httpbin.org/html)
+2025-07-14 19:22:03 - WebScraper.__main__ - INFO - Scraping session completed: 2/2 successful, 0 failed, 0 skipped
+2025-07-14 19:22:03 - WebScraper.__main__ - INFO - Application completed successfully in 0.19 seconds
+2025-07-14 19:22:03 - WebScraper.__main__ - INFO - Performing cleanup operations...
+2025-07-14 19:22:03 - database - INFO - Closing database connection pool...
+2025-07-14 19:22:03 - database - INFO - Database connection pool closed successfully
+2025-07-14 19:22:03 - WebScraper.__main__ - INFO - Database connections closed
+2025-07-14 19:22:03 - WebScraper.__main__ - INFO - Cleanup completed for session 76980f94
+2025-07-14 19:22:08 - root - INFO - Logging system initialized successfully
+2025-07-14 19:22:08 - root - INFO - Log level: INFO
+2025-07-14 19:22:08 - root - INFO - Log file: logs/scraper.log
+2025-07-14 19:22:08 - root - INFO - Max file size: 10 MB
+2025-07-14 19:22:08 - root - INFO - Backup count: 5
+2025-07-14 19:22:08 - WebScraper.utils - INFO - System Information:
+2025-07-14 19:22:08 - WebScraper.utils - INFO - Python version: 3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-07-14 19:22:08 - WebScraper.utils - INFO - Platform: macOS-15.5-arm64-arm-64bit-Mach-O
+2025-07-14 19:22:08 - WebScraper.utils - INFO - Architecture: 64bit
+2025-07-14 19:22:08 - WebScraper.utils - INFO - Working directory: /Users/rileymahoney/Documents/Workspace/idea-scraper
+2025-07-14 19:22:08 - WebScraper.__main__ - INFO - Web Scraper starting - Session ID: 9c9642d4
+2025-07-14 19:22:08 - database - INFO - DatabaseManager initialized for localhost:5432/web_scraper
+2025-07-14 19:22:08 - database - INFO - Creating database connection pool...
+2025-07-14 19:22:08 - database - INFO - Database connection pool created successfully (5-20 connections)
+2025-07-14 19:22:08 - WebScraper.__main__ - INFO - Database connection established successfully
+2025-07-14 19:22:08 - WebScraper.__main__ - INFO - Starting main application logic...
+2025-07-14 19:22:08 - WebScraper.__main__ - INFO - Configuration Summary:
+2025-07-14 19:22:08 - WebScraper.__main__ - INFO -   Database: localhost:5432/web_scraper
+2025-07-14 19:22:08 - WebScraper.__main__ - INFO -   URLs configured: 3
+2025-07-14 19:22:08 - WebScraper.__main__ - INFO -   URLs enabled: 2
+2025-07-14 19:22:08 - WebScraper.__main__ - INFO -   Request timeout: 30s
+2025-07-14 19:22:08 - WebScraper.__main__ - INFO -   Retry attempts: 3
+2025-07-14 19:22:08 - WebScraper.scraper - INFO - HTTPClient initialized with timeout=30s, max_retries=3, user_agent='WebScraper/1.0'
+2025-07-14 19:22:08 - WebScraper.scraper - INFO - ContentExtractor initialized with min_length=100, preserve_html=False
+2025-07-14 19:22:08 - WebScraper.scraper - INFO - WebScraper initialized with session_id=scrape_1752535328_7631, 3 URLs configured
+2025-07-14 19:22:08 - WebScraper.__main__ - INFO - Starting web scraping process...
+2025-07-14 19:22:08 - WebScraper.scraper - INFO - Starting scraping session scrape_1752535328_7631
+2025-07-14 19:22:08 - WebScraper.scraper - INFO - Processing 1/2: Example Site (https://example.com)
+2025-07-14 19:22:08 - WebScraper.scraper - INFO - Request successful: https://example.com - 200 (1256 bytes, 251ms, attempt 1)
+2025-07-14 19:22:08 - WebScraper.scraper - INFO - Content extracted successfully from https://example.com: title='Example Domain...' content_length=187
+2025-07-14 19:22:09 - WebScraper.scraper - INFO - Processing 2/2: HTTPBin Test Page (https://httpbin.org/html)
+2025-07-14 19:22:09 - WebScraper.scraper - INFO - Request successful: https://httpbin.org/html - 200 (3741 bytes, 187ms, attempt 1)
+2025-07-14 19:22:09 - WebScraper.scraper - INFO - Content extracted successfully from https://httpbin.org/html: title='Herman Melville - Moby...' content_length=3594
+2025-07-14 19:22:09 - WebScraper.scraper - INFO - Scraping session completed: 2/2 successful
+2025-07-14 19:22:09 - database - INFO - Inserted scraping stats for session scrape_1752535328_7631, ID: 2
+2025-07-14 19:22:09 - WebScraper.__main__ - INFO - Scraping session completed: 2/2 successful, 0 failed, 0 skipped
+2025-07-14 19:22:09 - WebScraper.__main__ - INFO - Application completed successfully in 1.63 seconds
+2025-07-14 19:22:09 - WebScraper.__main__ - INFO - Performing cleanup operations...
+2025-07-14 19:22:09 - database - INFO - Closing database connection pool...
+2025-07-14 19:22:09 - database - INFO - Database connection pool closed successfully
+2025-07-14 19:22:09 - WebScraper.__main__ - INFO - Database connections closed
+2025-07-14 19:22:09 - WebScraper.__main__ - INFO - Cleanup completed for session 9c9642d4
+2025-07-14 19:34:40 - root - INFO - Logging system initialized successfully
+2025-07-14 19:34:40 - root - INFO - Log level: INFO
+2025-07-14 19:34:40 - root - INFO - Log file: logs/scraper.log
+2025-07-14 19:34:40 - root - INFO - Max file size: 10 MB
+2025-07-14 19:34:40 - root - INFO - Backup count: 5
+2025-07-14 19:58:20 - root - INFO - Logging system initialized successfully
+2025-07-14 19:58:20 - root - INFO - Log level: DEBUG
+2025-07-14 19:58:20 - root - INFO - Log file: logs/scraper.log
+2025-07-14 19:58:20 - root - INFO - Max file size: 10 MB
+2025-07-14 19:58:20 - root - INFO - Backup count: 5
+2025-07-14 19:58:20 - WebScraper.utils - INFO - System Information:
+2025-07-14 19:58:20 - WebScraper.utils - INFO - Python version: 3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-07-14 19:58:20 - WebScraper.utils - INFO - Platform: macOS-15.5-arm64-arm-64bit-Mach-O
+2025-07-14 19:58:20 - WebScraper.utils - INFO - Architecture: 64bit
+2025-07-14 19:58:20 - WebScraper.utils - INFO - Working directory: /Users/rileymahoney/Documents/Workspace/idea-scraper
+2025-07-14 19:58:20 - WebScraper.__main__ - INFO - Web Scraper starting - Session ID: 493bff72
+2025-07-14 19:58:20 - database - INFO - DatabaseManager initialized for localhost:5432/web_scraper
+2025-07-14 19:58:20 - database - INFO - Creating database connection pool...
+2025-07-14 19:58:20 - database - DEBUG - Created connection pool with 5-20 connections
+2025-07-14 19:58:20 - database - DEBUG - Database health check passed
+2025-07-14 19:58:20 - database - INFO - Database connection pool created successfully (5-20 connections)
+2025-07-14 19:58:20 - WebScraper.__main__ - INFO - Database connection established successfully
+2025-07-14 19:58:20 - WebScraper.__main__ - INFO - Starting main application logic...
+2025-07-14 19:58:20 - database - DEBUG - Database health check passed
+2025-07-14 19:58:20 - WebScraper.__main__ - INFO - Configuration Summary:
+2025-07-14 19:58:20 - WebScraper.__main__ - INFO -   Database: localhost:5432/web_scraper
+2025-07-14 19:58:20 - WebScraper.__main__ - INFO -   URLs configured: 3
+2025-07-14 19:58:20 - WebScraper.__main__ - INFO -   URLs enabled: 2
+2025-07-14 19:58:20 - WebScraper.__main__ - INFO -   Request timeout: 30s
+2025-07-14 19:58:20 - WebScraper.__main__ - INFO -   Retry attempts: 3
+2025-07-14 19:58:21 - WebScraper.scraper - INFO - HTTPClient initialized with timeout=30s, max_retries=3, user_agent='WebScraper/1.0'
+2025-07-14 19:58:21 - WebScraper.scraper - INFO - ContentExtractor initialized with min_length=100, preserve_html=False
+2025-07-14 19:58:21 - WebScraper.scraper - INFO - RobotChecker initialized: respect_robots=True, user_agent='WebScraper/1.0', cache_ttl=86400s
+2025-07-14 19:58:21 - WebScraper.scraper - INFO - WebScraper initialized with session_id=scrape_1752537501_7197, 3 URLs configured
+2025-07-14 19:58:21 - WebScraper.__main__ - INFO - Dry-run mode enabled - simulating scraping process
+2025-07-14 19:58:21 - WebScraper.scraper - DEBUG - Starting execution of scraper.scrape_urls
+2025-07-14 19:58:21 - WebScraper.scraper - INFO - Simulating scraping process (dry-run mode)
+2025-07-14 19:58:21 - WebScraper.scraper - INFO - Would scrape: Example Site (https://example.com)
+2025-07-14 19:58:21 - WebScraper.scraper - INFO - Would scrape: HTTPBin Test Page (https://httpbin.org/html)
+2025-07-14 19:58:21 - WebScraper.scraper - DEBUG - Completed scraper.scrape_urls in 0.000 seconds
+2025-07-14 19:58:21 - WebScraper.__main__ - INFO - Scraping session completed: 2/2 successful, 0 failed, 0 skipped
+2025-07-14 19:58:21 - WebScraper.scraper - DEBUG - WebScraper resources cleaned up
+2025-07-14 19:58:21 - WebScraper.__main__ - INFO - Application completed successfully in 0.15 seconds
+2025-07-14 19:58:21 - WebScraper.__main__ - INFO - Performing cleanup operations...
+2025-07-14 19:58:21 - database - INFO - Closing database connection pool...
+2025-07-14 19:58:21 - database - INFO - Database connection pool closed successfully
+2025-07-14 19:58:21 - WebScraper.__main__ - INFO - Database connections closed
+2025-07-14 19:58:21 - WebScraper.__main__ - INFO - Cleanup completed for session 493bff72
+2025-07-15 07:28:59 - root - INFO - Logging system initialized successfully
+2025-07-15 07:28:59 - root - INFO - Log level: INFO
+2025-07-15 07:28:59 - root - INFO - Log file: logs/scraper.log
+2025-07-15 07:28:59 - root - INFO - Max file size: 10 MB
+2025-07-15 07:28:59 - root - INFO - Backup count: 5
+2025-07-15 07:28:59 - WebScraper.utils - INFO - System Information:
+2025-07-15 07:28:59 - WebScraper.utils - INFO - Python version: 3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-07-15 07:28:59 - WebScraper.utils - INFO - Platform: macOS-15.5-arm64-arm-64bit-Mach-O
+2025-07-15 07:28:59 - WebScraper.utils - INFO - Architecture: 64bit
+2025-07-15 07:28:59 - WebScraper.utils - INFO - Working directory: /Users/rileymahoney/Documents/Workspace/idea-scraper
+2025-07-15 07:28:59 - WebScraper.__main__ - INFO - Web Scraper starting - Session ID: dcbbf553
+2025-07-15 07:28:59 - database - INFO - DatabaseManager initialized for localhost:5432/web_scraper
+2025-07-15 07:28:59 - database - INFO - Creating database connection pool...
+2025-07-15 07:28:59 - database - INFO - Database connection pool created successfully (5-20 connections)
+2025-07-15 07:28:59 - WebScraper.__main__ - INFO - Database connection established successfully
+2025-07-15 07:28:59 - WebScraper.__main__ - INFO - Starting main application logic...
+2025-07-15 07:28:59 - WebScraper.__main__ - INFO - Configuration Summary:
+2025-07-15 07:28:59 - WebScraper.__main__ - INFO -   Database: localhost:5432/web_scraper
+2025-07-15 07:28:59 - WebScraper.__main__ - INFO -   URLs configured: 3
+2025-07-15 07:28:59 - WebScraper.__main__ - INFO -   URLs enabled: 1
+2025-07-15 07:28:59 - WebScraper.__main__ - INFO -   Request timeout: 30s
+2025-07-15 07:28:59 - WebScraper.__main__ - INFO -   Retry attempts: 3
+2025-07-15 07:28:59 - WebScraper.scraper - INFO - HTTPClient initialized with timeout=30s, max_retries=3, user_agent='WebScraper/1.0'
+2025-07-15 07:28:59 - WebScraper.scraper - INFO - ContentExtractor initialized with min_length=100, preserve_html=False
+2025-07-15 07:28:59 - WebScraper.scraper - INFO - RobotChecker initialized: respect_robots=True, user_agent='WebScraper/1.0', cache_ttl=86400s
+2025-07-15 07:28:59 - WebScraper.scraper - INFO - WebScraper initialized with session_id=scrape_1752578939_7325, 3 URLs configured
+2025-07-15 07:28:59 - WebScraper.__main__ - INFO - Dry-run mode enabled - simulating scraping process
+2025-07-15 07:28:59 - WebScraper.scraper - INFO - Simulating scraping process (dry-run mode)
+2025-07-15 07:28:59 - WebScraper.scraper - INFO - Would scrape: Idea Browser (https://www.ideabrowser.com/)
+2025-07-15 07:28:59 - WebScraper.__main__ - INFO - Scraping session completed: 1/1 successful, 0 failed, 0 skipped
+2025-07-15 07:28:59 - WebScraper.__main__ - INFO - Application completed successfully in 0.24 seconds
+2025-07-15 07:28:59 - WebScraper.__main__ - INFO - Performing cleanup operations...
+2025-07-15 07:28:59 - database - INFO - Closing database connection pool...
+2025-07-15 07:28:59 - database - INFO - Database connection pool closed successfully
+2025-07-15 07:28:59 - WebScraper.__main__ - INFO - Database connections closed
+2025-07-15 07:28:59 - WebScraper.__main__ - INFO - Cleanup completed for session dcbbf553
+2025-07-15 07:29:14 - root - INFO - Logging system initialized successfully
+2025-07-15 07:29:14 - root - INFO - Log level: INFO
+2025-07-15 07:29:14 - root - INFO - Log file: logs/scraper.log
+2025-07-15 07:29:14 - root - INFO - Max file size: 10 MB
+2025-07-15 07:29:14 - root - INFO - Backup count: 5
+2025-07-15 07:29:14 - WebScraper.utils - INFO - System Information:
+2025-07-15 07:29:14 - WebScraper.utils - INFO - Python version: 3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-07-15 07:29:14 - WebScraper.utils - INFO - Platform: macOS-15.5-arm64-arm-64bit-Mach-O
+2025-07-15 07:29:14 - WebScraper.utils - INFO - Architecture: 64bit
+2025-07-15 07:29:14 - WebScraper.utils - INFO - Working directory: /Users/rileymahoney/Documents/Workspace/idea-scraper
+2025-07-15 07:29:14 - WebScraper.__main__ - INFO - Web Scraper starting - Session ID: ac58ea38
+2025-07-15 07:29:14 - database - INFO - DatabaseManager initialized for localhost:5432/web_scraper
+2025-07-15 07:29:14 - database - INFO - Creating database connection pool...
+2025-07-15 07:29:14 - database - INFO - Database connection pool created successfully (5-20 connections)
+2025-07-15 07:29:14 - WebScraper.__main__ - INFO - Database connection established successfully
+2025-07-15 07:29:14 - WebScraper.__main__ - INFO - Creating database tables...
+2025-07-15 07:29:14 - database - INFO - Database tables and indexes created successfully
+2025-07-15 07:29:14 - WebScraper.__main__ - INFO - Database tables created successfully
+2025-07-15 07:29:14 - WebScraper.__main__ - INFO - Database setup completed successfully
+2025-07-15 07:29:14 - WebScraper.__main__ - INFO - Performing cleanup operations...
+2025-07-15 07:29:14 - database - INFO - Closing database connection pool...
+2025-07-15 07:29:14 - database - INFO - Database connection pool closed successfully
+2025-07-15 07:29:14 - WebScraper.__main__ - INFO - Database connections closed
+2025-07-15 07:29:14 - WebScraper.__main__ - INFO - Cleanup completed for session ac58ea38
+2025-07-15 07:29:23 - root - INFO - Logging system initialized successfully
+2025-07-15 07:29:23 - root - INFO - Log level: INFO
+2025-07-15 07:29:23 - root - INFO - Log file: logs/scraper.log
+2025-07-15 07:29:23 - root - INFO - Max file size: 10 MB
+2025-07-15 07:29:23 - root - INFO - Backup count: 5
+2025-07-15 07:29:23 - WebScraper.utils - INFO - System Information:
+2025-07-15 07:29:23 - WebScraper.utils - INFO - Python version: 3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-07-15 07:29:23 - WebScraper.utils - INFO - Platform: macOS-15.5-arm64-arm-64bit-Mach-O
+2025-07-15 07:29:23 - WebScraper.utils - INFO - Architecture: 64bit
+2025-07-15 07:29:23 - WebScraper.utils - INFO - Working directory: /Users/rileymahoney/Documents/Workspace/idea-scraper
+2025-07-15 07:29:23 - WebScraper.__main__ - INFO - Web Scraper starting - Session ID: 080efdbd
+2025-07-15 07:29:23 - database - INFO - DatabaseManager initialized for localhost:5432/web_scraper
+2025-07-15 07:29:23 - database - INFO - Creating database connection pool...
+2025-07-15 07:29:23 - database - INFO - Database connection pool created successfully (5-20 connections)
+2025-07-15 07:29:23 - WebScraper.__main__ - INFO - Database connection established successfully
+2025-07-15 07:29:23 - WebScraper.__main__ - INFO - Starting main application logic...
+2025-07-15 07:29:23 - WebScraper.__main__ - INFO - Configuration Summary:
+2025-07-15 07:29:23 - WebScraper.__main__ - INFO -   Database: localhost:5432/web_scraper
+2025-07-15 07:29:23 - WebScraper.__main__ - INFO -   URLs configured: 3
+2025-07-15 07:29:23 - WebScraper.__main__ - INFO -   URLs enabled: 1
+2025-07-15 07:29:23 - WebScraper.__main__ - INFO -   Request timeout: 30s
+2025-07-15 07:29:23 - WebScraper.__main__ - INFO -   Retry attempts: 3
+2025-07-15 07:29:23 - WebScraper.scraper - INFO - HTTPClient initialized with timeout=30s, max_retries=3, user_agent='WebScraper/1.0'
+2025-07-15 07:29:23 - WebScraper.scraper - INFO - ContentExtractor initialized with min_length=100, preserve_html=False
+2025-07-15 07:29:23 - WebScraper.scraper - INFO - RobotChecker initialized: respect_robots=True, user_agent='WebScraper/1.0', cache_ttl=86400s
+2025-07-15 07:29:23 - WebScraper.scraper - INFO - WebScraper initialized with session_id=scrape_1752578963_9503, 3 URLs configured
+2025-07-15 07:29:23 - WebScraper.__main__ - INFO - Starting web scraping process...
+2025-07-15 07:29:23 - WebScraper.scraper - INFO - Starting scraping session scrape_1752578963_9503
+2025-07-15 07:29:23 - WebScraper.scraper - INFO - Processing 1/1: Idea Browser (https://www.ideabrowser.com/)
+2025-07-15 07:29:23 - WebScraper.scraper - ERROR - Request failed: https://www.ideabrowser.com/robots.txt - HTTP 404 error for https://www.ideabrowser.com/robots.txt (attempt 1, 173ms)
+2025-07-15 07:29:23 - WebScraper.scraper - ERROR - Failed scraper.fetch_url after 0.174 seconds: HTTP 404 error for https://www.ideabrowser.com/robots.txt
+2025-07-15 07:29:24 - WebScraper.scraper - ERROR - Request failed: https://www.ideabrowser.com/robots.txt - HTTP 404 error for https://www.ideabrowser.com/robots.txt (attempt 1, 86ms)
+2025-07-15 07:29:24 - WebScraper.scraper - ERROR - Failed scraper.fetch_url after 0.917 seconds: HTTP 404 error for https://www.ideabrowser.com/robots.txt
+2025-07-15 07:29:26 - WebScraper.scraper - INFO - Request successful: https://www.ideabrowser.com/ - 200 (1139543 bytes, 477ms, attempt 1)
+2025-07-15 07:29:26 - WebScraper.scraper - INFO - Content extracted successfully from https://www.ideabrowser.com/: title='Ideabrowser...' content_length=67153
+2025-07-15 07:29:26 - WebScraper.scraper - INFO - New URL detected for scraping: https://www.ideabrowser.com/
+2025-07-15 07:29:26 - database - ERROR - Failed to insert content for URL https://www.ideabrowser.com/: column "last_modified" of relation "scraped_content" does not exist
+LINE 4:             response_time_ms, content_length, last_modified
+                                                      ^
+
+2025-07-15 07:29:26 - WebScraper.scraper - ERROR - Failed to store content for https://www.ideabrowser.com/: column "last_modified" of relation "scraped_content" does not exist
+LINE 4:             response_time_ms, content_length, last_modified
+                                                      ^
+
+2025-07-15 07:29:26 - WebScraper.scraper - ERROR - Scraping error: {'error_type': 'UndefinedColumn', 'message': 'column "last_modified" of relation "scraped_content" does not exist\nLINE 4:             response_time_ms, content_length, last_modified\n                                                      ^\n', 'url': 'https://www.ideabrowser.com/', 'timestamp': '2025-07-15T07:29:26.379411', 'decision': {'should_retry': False, 'should_continue': True, 'count_as_failure': True, 'recovery_action': 'skip_url'}, 'context': {'url': 'https://www.ideabrowser.com/', 'session_id': 'scrape_1752578963_9503', 'session_stats': {'total_urls': 1, 'successful_scrapes': 0, 'failed_scrapes': 0, 'skipped_urls': 0, 'errors': [], 'total_content_size': 0, 'total_response_time': 0, 'start_time': datetime.datetime(2025, 7, 15, 7, 29, 23, 753002), 'end_time': None}, 'user_agent': 'WebScraper/1.0', 'timeout': 30, 'max_retries': 3}, 'error_rates': {'NetworkError': 0.0, 'ParseError': 0.0, 'RobotsError': 0.0, 'ConfigurationError': 0.0, 'DatabaseError': 0.0, 'Unknown': 0.0, 'UndefinedColumn': 1.0}}
+2025-07-15 07:29:26 - WebScraper.scraper - INFO - Skipping URL https://www.ideabrowser.com/ due to UndefinedColumn
+2025-07-15 07:29:26 - WebScraper.scraper - INFO - Scraping session completed: 0/1 successful
+2025-07-15 07:29:26 - database - INFO - Inserted scraping stats for session scrape_1752578963_9503, ID: 3
+2025-07-15 07:29:26 - WebScraper.__main__ - INFO - Scraping session completed: 0/1 successful, 1 failed, 0 skipped
+2025-07-15 07:29:26 - WebScraper.__main__ - WARNING - Encountered 1 errors during scraping
+2025-07-15 07:29:26 - WebScraper.__main__ - WARNING -   - https://www.ideabrowser.com/: UndefinedColumn - column "last_modified" of relation "scraped_content" does not exist
+LINE 4:             response_time_ms, content_length, last_modified
+                                                      ^
+
+2025-07-15 07:29:26 - WebScraper.__main__ - INFO - Application completed successfully in 2.76 seconds
+2025-07-15 07:29:26 - WebScraper.__main__ - INFO - Performing cleanup operations...
+2025-07-15 07:29:26 - database - INFO - Closing database connection pool...
+2025-07-15 07:29:26 - database - INFO - Database connection pool closed successfully
+2025-07-15 07:29:26 - WebScraper.__main__ - INFO - Database connections closed
+2025-07-15 07:29:26 - WebScraper.__main__ - INFO - Cleanup completed for session 080efdbd
+2025-07-15 07:36:51 - root - INFO - Logging system initialized successfully
+2025-07-15 07:36:51 - root - INFO - Log level: INFO
+2025-07-15 07:36:51 - root - INFO - Log file: logs/scraper.log
+2025-07-15 07:36:51 - root - INFO - Max file size: 10 MB
+2025-07-15 07:36:51 - root - INFO - Backup count: 5
+2025-07-15 07:36:51 - WebScraper.utils - INFO - System Information:
+2025-07-15 07:36:51 - WebScraper.utils - INFO - Python version: 3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-07-15 07:36:51 - WebScraper.utils - INFO - Platform: macOS-15.5-arm64-arm-64bit-Mach-O
+2025-07-15 07:36:51 - WebScraper.utils - INFO - Architecture: 64bit
+2025-07-15 07:36:51 - WebScraper.utils - INFO - Working directory: /Users/rileymahoney/Documents/Workspace/idea-scraper
+2025-07-15 07:36:51 - WebScraper.__main__ - INFO - Web Scraper starting - Session ID: 6c7883c8
+2025-07-15 07:36:51 - database - INFO - DatabaseManager initialized for localhost:5432/web_scraper
+2025-07-15 07:36:51 - database - INFO - Creating database connection pool...
+2025-07-15 07:36:51 - database - INFO - Database connection pool created successfully (5-20 connections)
+2025-07-15 07:36:51 - WebScraper.__main__ - INFO - Database connection established successfully
+2025-07-15 07:36:51 - WebScraper.__main__ - INFO - Running database migrations...
+2025-07-15 07:36:51 - database - INFO - Migration: Added last_modified column to scraped_content table
+2025-07-15 07:36:51 - WebScraper.__main__ - INFO - Database migrations completed successfully
+2025-07-15 07:36:51 - WebScraper.__main__ - INFO - Performing cleanup operations...
+2025-07-15 07:36:51 - database - INFO - Closing database connection pool...
+2025-07-15 07:36:51 - database - INFO - Database connection pool closed successfully
+2025-07-15 07:36:51 - WebScraper.__main__ - INFO - Database connections closed
+2025-07-15 07:36:51 - WebScraper.__main__ - INFO - Cleanup completed for session 6c7883c8
+2025-07-15 07:36:58 - root - INFO - Logging system initialized successfully
+2025-07-15 07:36:58 - root - INFO - Log level: INFO
+2025-07-15 07:36:58 - root - INFO - Log file: logs/scraper.log
+2025-07-15 07:36:58 - root - INFO - Max file size: 10 MB
+2025-07-15 07:36:58 - root - INFO - Backup count: 5
+2025-07-15 07:36:58 - WebScraper.utils - INFO - System Information:
+2025-07-15 07:36:58 - WebScraper.utils - INFO - Python version: 3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-07-15 07:36:58 - WebScraper.utils - INFO - Platform: macOS-15.5-arm64-arm-64bit-Mach-O
+2025-07-15 07:36:58 - WebScraper.utils - INFO - Architecture: 64bit
+2025-07-15 07:36:58 - WebScraper.utils - INFO - Working directory: /Users/rileymahoney/Documents/Workspace/idea-scraper
+2025-07-15 07:36:58 - WebScraper.__main__ - INFO - Web Scraper starting - Session ID: f5e3a385
+2025-07-15 07:36:58 - database - INFO - DatabaseManager initialized for localhost:5432/web_scraper
+2025-07-15 07:36:58 - database - INFO - Creating database connection pool...
+2025-07-15 07:36:58 - database - INFO - Database connection pool created successfully (5-20 connections)
+2025-07-15 07:36:58 - WebScraper.__main__ - INFO - Database connection established successfully
+2025-07-15 07:36:58 - WebScraper.__main__ - INFO - Starting main application logic...
+2025-07-15 07:36:58 - WebScraper.__main__ - INFO - Configuration Summary:
+2025-07-15 07:36:58 - WebScraper.__main__ - INFO -   Database: localhost:5432/web_scraper
+2025-07-15 07:36:58 - WebScraper.__main__ - INFO -   URLs configured: 3
+2025-07-15 07:36:58 - WebScraper.__main__ - INFO -   URLs enabled: 1
+2025-07-15 07:36:58 - WebScraper.__main__ - INFO -   Request timeout: 30s
+2025-07-15 07:36:58 - WebScraper.__main__ - INFO -   Retry attempts: 3
+2025-07-15 07:36:58 - WebScraper.scraper - INFO - HTTPClient initialized with timeout=30s, max_retries=3, user_agent='WebScraper/1.0'
+2025-07-15 07:36:58 - WebScraper.scraper - INFO - ContentExtractor initialized with min_length=100, preserve_html=False
+2025-07-15 07:36:58 - WebScraper.scraper - INFO - RobotChecker initialized: respect_robots=True, user_agent='WebScraper/1.0', cache_ttl=86400s
+2025-07-15 07:36:58 - WebScraper.scraper - INFO - WebScraper initialized with session_id=scrape_1752579418_3921, 3 URLs configured
+2025-07-15 07:36:58 - WebScraper.__main__ - INFO - Starting web scraping process...
+2025-07-15 07:36:58 - WebScraper.scraper - INFO - Starting scraping session scrape_1752579418_3921
+2025-07-15 07:36:58 - WebScraper.scraper - INFO - Processing 1/1: Idea Browser (https://www.ideabrowser.com/)
+2025-07-15 07:36:58 - WebScraper.scraper - ERROR - Request failed: https://www.ideabrowser.com/robots.txt - HTTP 404 error for https://www.ideabrowser.com/robots.txt (attempt 1, 181ms)
+2025-07-15 07:36:58 - WebScraper.scraper - ERROR - Failed scraper.fetch_url after 0.182 seconds: HTTP 404 error for https://www.ideabrowser.com/robots.txt
+2025-07-15 07:36:59 - WebScraper.scraper - ERROR - Request failed: https://www.ideabrowser.com/robots.txt - HTTP 404 error for https://www.ideabrowser.com/robots.txt (attempt 1, 73ms)
+2025-07-15 07:36:59 - WebScraper.scraper - ERROR - Failed scraper.fetch_url after 0.897 seconds: HTTP 404 error for https://www.ideabrowser.com/robots.txt
+2025-07-15 07:37:01 - WebScraper.scraper - INFO - Request successful: https://www.ideabrowser.com/ - 200 (1138234 bytes, 772ms, attempt 1)
+2025-07-15 07:37:01 - WebScraper.scraper - INFO - Content extracted successfully from https://www.ideabrowser.com/: title='Ideabrowser...' content_length=67153
+2025-07-15 07:37:01 - WebScraper.scraper - INFO - New URL detected for scraping: https://www.ideabrowser.com/
+2025-07-15 07:37:01 - WebScraper.scraper - INFO - Scraping session completed: 1/1 successful
+2025-07-15 07:37:01 - database - INFO - Inserted scraping stats for session scrape_1752579418_3921, ID: 4
+2025-07-15 07:37:01 - WebScraper.__main__ - INFO - Scraping session completed: 1/1 successful, 0 failed, 0 skipped
+2025-07-15 07:37:01 - WebScraper.__main__ - INFO - Application completed successfully in 3.09 seconds
+2025-07-15 07:37:01 - WebScraper.__main__ - INFO - Performing cleanup operations...
+2025-07-15 07:37:01 - database - INFO - Closing database connection pool...
+2025-07-15 07:37:01 - database - INFO - Database connection pool closed successfully
+2025-07-15 07:37:01 - WebScraper.__main__ - INFO - Database connections closed
+2025-07-15 07:37:01 - WebScraper.__main__ - INFO - Cleanup completed for session f5e3a385

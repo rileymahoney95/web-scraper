@@ -1,0 +1,41 @@
+# Web Scraper Configuration File
+# This file contains all configuration settings for the web scraper application
+
+# Database Configuration
+database:
+  host: localhost
+  port: 5432
+  database: web_scraper
+  username: scraper_user
+  password: ${DB_PASSWORD} # Environment variable - set this in your environment
+  max_connections: 20
+  min_connections: 5
+  connection_timeout: 30
+
+# Web Scraping Configuration
+scraping:
+  # List of URLs to scrape
+  urls:
+    - url: 'https://httpbin.org/html'
+      name: 'HTTPBin Test Page'
+      enabled: false
+    - url: 'https://quotes.toscrape.com'
+      name: 'Quotes to Scrape'
+      enabled: false # Disabled for now
+
+  # Scraping settings
+  settings:
+    timeout: 30 # Request timeout in seconds
+    retry_attempts: 3 # Number of retry attempts
+    retry_delay: 5 # Delay between retries in seconds
+    user_agent: 'WebScraper/1.0' # User agent string
+    respect_robots_txt: true # Whether to respect robots.txt
+    delay_between_requests: 1 # Delay between requests in seconds
+
+# Logging Configuration
+logging:
+  level: INFO # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file: 'logs/scraper.log' # Log file path
+  max_size_mb: 10 # Maximum log file size in MB
+  backup_count: 5 # Number of backup log files to keep
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s' # Log format

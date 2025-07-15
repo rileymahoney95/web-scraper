@@ -1,0 +1,76 @@
+# ================================================================
+# REQUIREMENTS.TXT - Phase 1: Core Infrastructure Dependencies
+# ================================================================
+# This file contains all the core Python dependencies needed for the
+# web scraper application. Each package is pinned to the latest stable
+# version as of 2024-2025.
+
+# ----------------------------------------------------------------
+# DATABASE CONNECTIVITY
+# ----------------------------------------------------------------
+# PostgreSQL adapter for Python with binary dependencies included
+psycopg2-binary==2.9.10
+
+# Alternative modern PostgreSQL adapter (choose one)
+# psycopg[binary]==3.2.9
+
+# ----------------------------------------------------------------
+# CONFIGURATION MANAGEMENT
+# ----------------------------------------------------------------
+# YAML parser and emitter for Python configuration files
+PyYAML==6.0.2
+
+# ----------------------------------------------------------------
+# HTTP REQUESTS
+# ----------------------------------------------------------------
+# HTTP library for making web requests and API calls
+requests==2.32.4
+
+# ----------------------------------------------------------------
+# HTML/XML PARSING
+# ----------------------------------------------------------------
+# Powerful XML/HTML processing library with XPath support
+lxml==6.0.0
+
+# HTML parsing library for web scraping
+beautifulsoup4==4.13.4
+
+# ----------------------------------------------------------------
+# DEVELOPMENT AND TESTING (Optional)
+# ----------------------------------------------------------------
+# Remove these comments to include development dependencies:
+# pytest==8.3.4               # Testing framework
+# pytest-cov==6.0.0          # Coverage plugin for pytest
+# flake8==7.1.1              # Code linting tool
+# black==24.10.0              # Code formatter
+# mypy==1.14.1               # Static type checker
+
+# ----------------------------------------------------------------
+# LOGGING ENHANCEMENTS (Optional)
+# ----------------------------------------------------------------
+# Remove these comments to include enhanced logging:
+# coloredlogs==15.0.1         # Colored terminal logs
+# structlog==24.5.0           # Structured logging
+
+# ----------------------------------------------------------------
+# ADDITIONAL UTILITIES (Optional)
+# ----------------------------------------------------------------
+# Remove these comments to include additional utilities:
+# python-dotenv==1.0.1        # Load environment variables from .env files
+# click==8.1.8                # Command line interface framework
+# tqdm==4.67.1                # Progress bars for long-running operations
+
+# ----------------------------------------------------------------
+# NOTES:
+# ----------------------------------------------------------------
+# 1. All versions are pinned to ensure reproducible builds
+# 2. Use 'pip install -r requirements.txt' to install all dependencies
+# 3. Consider using a virtual environment for isolation
+# 4. Update versions periodically for security and feature updates
+# 5. For production, consider using pip-tools for dependency resolution
+#
+# To upgrade dependencies:
+# pip install --upgrade -r requirements.txt
+#
+# To create a frozen snapshot of current environment:
+# pip freeze > requirements-frozen.txt
