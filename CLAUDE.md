@@ -182,14 +182,25 @@ python -m pytest test/ --cov=src --cov-report=html
 ```
 
 ### Deployment with Cron
-```bash
-# Example cron job entries
-# Run every 6 hours
-0 */6 * * * cd /path/to/idea-scraper && source venv/bin/activate && python src/main.py
 
-# Run twice daily at 9 AM and 9 PM
-0 9,21 * * * cd /path/to/idea-scraper && source venv/bin/activate && python src/main.py
+**⚠️ CRITICAL: Cron Environment Issues**
+Cron runs in a minimal environment without shell profiles. Always use this format:
+
+```bash
+# CORRECT: Use setup script (recommended)
+./scripts/setup_cron.sh
+
+# CORRECT: Manual setup with environment loading
+0 9,21 * * * /bin/zsh -c "source ~/.zshrc && /path/to/cron_wrapper.sh" >> /path/to/logs/cron.log 2>&1
+
+# INCORRECT: Will fail silently due to missing DB_PASSWORD
+0 9,21 * * * /path/to/cron_wrapper.sh
 ```
+
+**Must-have for cron jobs:**
+- `source ~/.zshrc` - Load DB_PASSWORD and other environment variables
+- `>> logs/cron.log 2>&1` - Capture all output for debugging
+- Use `cron_wrapper.sh` instead of calling `main.py` directly
 
 ## Key Classes and Components
 

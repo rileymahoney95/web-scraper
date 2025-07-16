@@ -117,15 +117,69 @@ tail -f logs/scraper.log
 grep "ERROR\|WARNING" logs/scraper.log
 ```
 
-## Automation
+## Automation & Scheduling
 
-Schedule regular scraping with cron:
+### Quick Setup (macOS)
+
+1. **Check permissions**:
+   ```bash
+   ./scripts/setup_macos_permissions.sh
+   ```
+
+2. **Set up cron job**:
+   ```bash
+   ./scripts/setup_cron.sh
+   ```
+
+3. **Monitor scraper**:
+   ```bash
+   ./scripts/monitor_scraper.sh
+   ```
+
+### Available Scripts
+
+- `setup_cron.sh` - Interactive cron job setup with scheduling options
+- `cron_wrapper.sh` - Robust cron execution wrapper with error handling
+- `monitor_scraper.sh` - Health monitoring and status reports
+- `cleanup_logs.sh` - Automated log cleanup and rotation
+- `notify_errors.sh` - Error notifications (desktop, email, Slack)
+- `test_cron_setup.sh` - Validate your cron configuration
+- `validate_permissions.sh` - Check and fix file permissions
+
+### Manual Cron Setup
+
+**⚠️ Important**: Cron needs environment variables and output redirection:
+
 ```bash
-# Run every 6 hours
-0 */6 * * * cd /path/to/idea-scraper && source venv/bin/activate && python src/main.py
+# Edit crontab
+crontab -e
 
-# Run twice daily
-0 9,21 * * * cd /path/to/idea-scraper && source venv/bin/activate && python src/main.py
+# CORRECT format (loads DB_PASSWORD and captures logs):
+0 9,21 * * * /bin/zsh -c "source ~/.zshrc && /path/to/idea-scraper/scripts/cron_wrapper.sh" >> /path/to/idea-scraper/logs/cron.log 2>&1
+
+# Other schedules:
+# Every 6 hours
+0 */6 * * * /bin/zsh -c "source ~/.zshrc && /path/to/idea-scraper/scripts/cron_wrapper.sh" >> /path/to/idea-scraper/logs/cron.log 2>&1
+
+# Daily at 2 AM
+0 2 * * * /bin/zsh -c "source ~/.zshrc && /path/to/idea-scraper/scripts/cron_wrapper.sh" >> /path/to/idea-scraper/logs/cron.log 2>&1
+```
+
+### Monitoring Commands
+
+```bash
+# Check scraper health
+./scripts/monitor_scraper.sh
+
+# View recent logs
+tail -f logs/scraper.log
+tail -f logs/cron.log
+
+# Clean up old logs
+./scripts/cleanup_logs.sh
+
+# Test notifications
+./scripts/notify_errors.sh --test
 ```
 
 ## Exit Codes
@@ -164,4 +218,27 @@ mkdir -p logs
 chmod 755 logs
 ```
 
-For detailed documentation, see `docs/` directory and `CLAUDE.md`.
+## Documentation
+
+- **`docs/DEPLOYMENT.md`** - Complete macOS deployment guide
+- **`docs/PRD.md`** - Product requirements and specifications
+- **`CLAUDE.md`** - Detailed project information and development guide
+
+## Need Help?
+
+**Common Issues:**
+- Permission errors → Run `./scripts/setup_macos_permissions.sh`
+- Database connection → Check PostgreSQL is running and DB_PASSWORD is set
+- Cron not working → Run `./scripts/test_cron_setup.sh -v` for diagnostics
+
+**Quick Commands:**
+```bash
+# Full system check
+./scripts/test_cron_setup.sh -v
+
+# Fix permissions
+./scripts/validate_permissions.sh --fix
+
+# Monitor health
+./scripts/monitor_scraper.sh --stats
+```

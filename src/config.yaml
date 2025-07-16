@@ -16,6 +16,9 @@ database:
 scraping:
   # List of URLs to scrape
   urls:
+    - url: 'https://www.ideabrowser.com/'
+      name: 'Idea Browser'
+      enabled: true
     - url: 'https://httpbin.org/html'
       name: 'HTTPBin Test Page'
       enabled: false
